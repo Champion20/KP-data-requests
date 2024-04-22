@@ -1,5 +1,5 @@
 # AUTHOR:   R. Pineteh | USAID
-# PURPOSE:  Adhoc data extraction of KP data for sharing with SANAC
+# PURPOSE:  Adhoc KP data processing for sharing with SANAC
 # REF ID:   b4f36b95 
 # LICENSE:  MIT
 # DATE:     2024-04-18
