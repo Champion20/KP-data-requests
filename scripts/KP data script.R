@@ -67,7 +67,7 @@ load_secrets()
   
   kp_result <-  kp_data %>% 
     group_by(psnu, community,prime_partner_name , indicator , otherdisaggregate_sub) %>% 
-    summarise(FY24Q1= sum(value)) # Change to relevant period
+    summarise(FY24Q1= sum(value,na.rm = TRUE)) # Change to relevant period
   
   glimpse(kp_result)
   
